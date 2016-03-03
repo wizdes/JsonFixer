@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.6-dist/css/app.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row toprow">
+            <div class="col-lg-6">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default">JSON</button>
+                    <button type="button" class="btn btn-default" disabled>XML</button>
+                </div>
+            </div>
+            <div class="col-lg-6 rightcolumn">
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" class="btn btn-default" id="copybtn">
+                        <span class="glyphicon glyphicon-copy" aria-hidden="true"></span> Copy
+                    </button>
+                    <button type="button" class="btn btn-default" disabled>
+                        <span class="glyphicon glyphicon-save" aria-hidden="true"></span> Save
+                    </button>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <textarea class="inputtextbox" id="inputbox" width="100%"></textarea>
+            </div>
+            <div class="col-xs-6">
+                <textarea class="outputtextbox" id="outputbox" width="100%" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.$ = window.jQuery = require('./bootstrap-3.3.6-dist/js/jquery.min.js');
+    </script>
+    
+    <script src="bootstrap-3.3.6-dist/js/app.js"></script>
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

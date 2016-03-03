@@ -1,0 +1,24 @@
+.toprow {
+    margin-top: 5px;
+}
+
+.inputtextbox {
+    width: 100%;
+    height: 475px;
+    resize: none;
+    margin-top: 5px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+.outputtextbox {
+    width: 100%;
+    height: 475px;
+    resize: none;
+    margin-top: 5px;
+    background-color: lightgrey;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+.rightcolumn {
+    text-align: right;
+}
